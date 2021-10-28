@@ -55,7 +55,7 @@ function setup() {
   
   //select month
   let month = int(random(1, 20));
-  // print(month);
+  print("month:" month);
   sleep = loadJSON(list1[month]);
   // console.log(Object.keys(sleep))
   
